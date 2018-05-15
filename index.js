@@ -4,7 +4,5 @@ class Driver {
     this.joinDate = joinDate
     this.startDate = new Date(this.joinDate)
   }
-  startDate(){
-    return new Date(this.joinDate)
-  }
+
 }
