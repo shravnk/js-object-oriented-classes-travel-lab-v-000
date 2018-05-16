@@ -21,7 +21,7 @@ class Route {
     return Math.abs(eastWest.indexOf(this.beginningLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal)) + Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical)
   }
 
-  estimatedTime(peak=false) {
+  estimatedTime(peak = false) {
     if(peak){
       return this.blocksTravelled / 2}
     else {
